@@ -1,4 +1,4 @@
-How to go back to 05 if you have installed 06 before
+Downgrade from 0.6 to 0.5 
 ======
 
 This is the operating system for your [EON Dashcam Development Kit](https://shop.comma.ai/products/eon-dashcam-devkit).
@@ -30,6 +30,10 @@ brew cask install android-platform-tools
 brew install simg2img
 ```
 
+``` 
+git checkout 45ce1790dd5f4ef8ef5987fa198a904b69b9ce53
+```
+
 Hold power and volume to enter fastboot mode on your EON or Android device. 
 
 Connect it via USB to your MAC.
@@ -37,7 +41,8 @@ Connect it via USB to your MAC.
 Navigate to the direction, wehre your files are and run:
 
 ```
-/download.py ./flash.sh
+./download.py 
+./flash.sh
 ```
 
 After a while your eon will reboot and ask you: "Enter the URL of the NEOS program to install"
@@ -45,7 +50,7 @@ After a while your eon will reboot and ask you: "Enter the URL of the NEOS progr
 Type in:
 
 ```
-openpilot.comma.ai
+https://openpilot.comma.ai
 ```
 
 It will download and install official comma 06. 
@@ -59,7 +64,7 @@ Do not klick anything.
 
 From here you need to install 05.11 original comma:
 
-ssh in and: 
+ssh in and [guide for ssh](https://medium.com/@jfrux/comma-eon-getting-connected-with-ssh-3ed6136e4a75): 
 
 ```
 cd /data; cp -rf ./openpilot ./openpilot.bak; rm -rf ./openpilot; git clone https://github.com/arne182/openpilot.git openpilot; cd openpilot; git checkout 0511-final
@@ -69,7 +74,7 @@ Restart your eon and it will boot on 05.11 branch.
 
 From here you can install every awesome fork with great mapd support for example ;) - Like arnes realse 2 :
 
-https://github.com/arne182/openpilot/tree/release2
+[Arne's fork](https://github.com/arne182/openpilot/tree/release2)
 
 
 
