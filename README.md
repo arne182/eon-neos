@@ -57,7 +57,7 @@ After rebooting a purple screen will appear:
 
 Do not klick anything. 
 
-From here you need to install 05.11 origianl:
+From here you need to install 05.11 original comma:
 
 ssh in and: 
 
