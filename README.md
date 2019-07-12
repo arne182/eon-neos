@@ -94,7 +94,7 @@ git checkout 45ce1790dd5f4ef8ef5987fa198a904b69b9ce53
 
 run the python script to download the files.
 
-Unzip the ota file to the same folder.
+Unzip the ota file to the same folder. So move the system.img/boot.img out of the "/files" one folder up!!!
 
 img2simg.exe from  https://forum.xda-developers.com/showpost.php?p=49235638&postcount=5
 
