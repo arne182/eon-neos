@@ -89,17 +89,29 @@ Submit a PR with instructions.
 Restoring on Windows
 ------
 Install python 2.7 from https://www.python.org/downloads/
+
 git checkout 45ce1790dd5f4ef8ef5987fa198a904b69b9ce53
+
 run the python script to download the files.
+
 Unzip the ota file to the same folder.
+
 img2simg.exe from  https://forum.xda-developers.com/showpost.php?p=49235638&postcount=5
+
 fastboot.exe from https://forum.xda-developers.com/showthread.php?t=2588979
+
 img2simg.exe system.img system.simg
+
 fastboot.exe flash recovery recovery.img
+
 fastboot.exe flash boot boot.img
+
 fastboot.exe flash system system.simg
+
 fastboot.exe erase userdata
+
 fastboot.exe format cache
+
 fastboot.exe reboot
 
 After a while your eon will reboot and ask you: "Enter the URL of the NEOS program to install"
