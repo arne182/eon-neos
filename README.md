@@ -60,7 +60,7 @@ After rebooting a purple screen will appear:
 ![enter image description here](https://cdn.discordapp.com/attachments/555026950067060736/597766347031838723/image0.jpg)
 
 
-Do not click anything. 
+Do not click continue. Click wifi and set up your wifi settings 
 
 From here you need to install 05.11 original comma:
 
@@ -70,7 +70,9 @@ ssh in and [guide for ssh](https://medium.com/@jfrux/comma-eon-getting-connected
 cd /data; cp -rf ./openpilot ./openpilot.bak; rm -rf ./openpilot; git clone https://github.com/arne182/openpilot.git openpilot; cd openpilot; git checkout 0511-final
 ```
 
-Restart your eon and it will boot on 05.11 branch. Log into gmail account.
+Restart your eon and it will boot on 05.11 branch. Log into gmail account. Switch on the OSM feature and set your offset. 
+
+Can only be done after you fingerprint your car and if you have longitudinal control.
 
 From here you can install every awesome fork with great mapd support for example ;) - Like arnes realse 2 :
 
@@ -129,7 +131,7 @@ After rebooting a purple screen will appear:
 ![enter image description here](https://cdn.discordapp.com/attachments/555026950067060736/597766347031838723/image0.jpg)
 
 
-Do not click anything. 
+Do not click continue. Click wifi and set up your wifi settings
 
 From here you need to install 05.11 original comma:
 
@@ -139,7 +141,9 @@ ssh in and [guide for ssh](https://medium.com/@jfrux/comma-eon-getting-connected
 cd /data; cp -rf ./openpilot ./openpilot.bak; rm -rf ./openpilot; git clone https://github.com/arne182/openpilot.git openpilot; cd openpilot; git checkout 0511-final
 ```
 
-Restart your eon and it will boot on 05.11 branch. Log into gmail account.
+Restart your eon and it will boot on 05.11 branch. Log into gmail account. Switch on the OSM feature and set your offset. 
+
+Can only be done after you fingerprint your car and if you have longitudinal control.
 
 From here you can install every awesome fork with great mapd support for example ;) - Like arnes realse 2 :
 
