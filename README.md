@@ -34,6 +34,14 @@ brew install simg2img
 git checkout 45ce1790dd5f4ef8ef5987fa198a904b69b9ce53
 ```
 
+{
+  "ota_url": "https://commadist.azureedge.net/neosupdate/ota-signed-fbbb6b1ce9eab4f3cee3ee4d1f19a1d9714b05f8aec44a41104446d3d683e36a.zip",
+  "ota_hash": "fbbb6b1ce9eab4f3cee3ee4d1f19a1d9714b05f8aec44a41104446d3d683e36a",
+  "recovery_url": "https://commadist.azureedge.net/neosupdate/recovery-df61ad77c40b31ae18e147b3bd82d4edf6d5f0483642e8c62a2b63754e57cc19.img",
+  "recovery_len": 15136044,
+  "recovery_hash": "df61ad77c40b31ae18e147b3bd82d4edf6d5f0483642e8c62a2b63754e57cc19"
+}
+
 Hold power and volume to enter fastboot mode on your EON or Android device. 
 
 Connect it via USB to your MAC.
@@ -93,6 +101,15 @@ Restoring on Windows
 Install python 2.7 from https://www.python.org/downloads/
 
 git checkout 45ce1790dd5f4ef8ef5987fa198a904b69b9ce53
+
+{
+  "ota_url": "https://commadist.azureedge.net/neosupdate/ota-signed-fbbb6b1ce9eab4f3cee3ee4d1f19a1d9714b05f8aec44a41104446d3d683e36a.zip",
+  "ota_hash": "fbbb6b1ce9eab4f3cee3ee4d1f19a1d9714b05f8aec44a41104446d3d683e36a",
+  "recovery_url": "https://commadist.azureedge.net/neosupdate/recovery-df61ad77c40b31ae18e147b3bd82d4edf6d5f0483642e8c62a2b63754e57cc19.img",
+  "recovery_len": 15136044,
+  "recovery_hash": "df61ad77c40b31ae18e147b3bd82d4edf6d5f0483642e8c62a2b63754e57cc19"
+}
+
 
 run the python script to download the files.
 
